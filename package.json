@@ -1,0 +1,25 @@
+{
+  "name": "nuxt-app",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev --host",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare"
+  },
+  "dependencies": {
+    "cleave.js": "^1.6.0",
+    "libphonenumber-js": "^1.11.16",
+    "nuxt": "^3.14.1592",
+    "vee-validate": "^4.14.7",
+    "vue": "latest",
+    "vue-router": "latest",
+    "vue-tel-input": "^9.2.0",
+    "yup": "^1.5.0"
+  },
+  "devDependencies": {
+    "@types/cleave.js": "^1.4.12"
+  }
+}
